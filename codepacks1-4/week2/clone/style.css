@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    
+}
+body{
+    background-color: rgba(1,188,239,.01);
+    box-sizing: border-box;
+    
+}
+main{
+    display: flex;
+    height: 93vh;
+
+}
+#panel1{
+    height: 100%;
+    width: 54%;
+    
+}
+#panel1 img{
+    width: 100%;
+    height: 100%;
+}
+#panel2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    justify-content: center;
+}
+.panel2_content{
+}
+#logo{
+    width: 45px;
+    margin-bottom:60px;
+}
+h1{
+    font-size: 70px;
+    margin-bottom: 40px;
+}
+h3{
+    font-size: 35px;
+    margin-bottom: 25px;
+    
+}
+.btn{
+    margin: 10px 0px 15px;
+    width: 350px;
+    height: 45px;
+    background-color: white;
+    border-radius: 50px;
+    border-width: thin;
+    border-color: rgba(50, 50, 50, .1);
+    
+}
+.btn:hover{
+    background-color: rgba(50, 50, 50, .05);
+}
+#googleSignUp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.googlebtn{
+    margin-left: 10px;
+    align-self: center;
+    font-size: 15px;
+    font-weight: 700;
+}
+#googleImg{
+    height:30px;
+}
+#email_signup{
+    margin-bottom: 20px;
+}
+#disclaimer{
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.terms{
+    color: rgba(53,188,243);
+    text-decoration: none;
+    font-weight: 450;
+}
+.terms:hover:hover{
+    text-decoration: underline;
+}
+#have_account{
+    font-size: 15px;
+}
+#login{
+    text-decoration: none;
+    color: rgba(53,188,243);
+}
+#nav{
+    height: 7vh;
+    /* background-color: cornsilk; */
+}
+#nav ul{
+    height: 100%;
+    margin: 15px 100px 20px;
+    display: flex;
+    /* background-color: cornsilk; */
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style: none;
+}
+.nav_link{
+    text-decoration: none;
+    color: black;
+}
+.nav_link:hover{
+    text-decoration: underline;
+}
+.footlist{
+    font-size: 13.5px;
+    font-weight: 80;
+}

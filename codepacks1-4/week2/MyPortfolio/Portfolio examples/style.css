@@ -1,0 +1,13 @@
+*{
+    background-color: #0E86D4;
+    box-sizing: border-box;
+}
+header ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.header_list{
+    text-decoration: none;
+}
